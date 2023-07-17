@@ -1,0 +1,85 @@
+.menu {
+  font-family: "PT Sans", sans-serif;
+}
+
+.title-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.menu h1 {
+  color: rgb(99, 99, 99);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 48px;
+}
+
+.menu h2 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 32px;
+  color: rgb(99, 99, 99);
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu__section {
+  width: 90%;
+}
+
+.menu__items {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.menu__item {
+  background-color: #fff;
+}
+
+.menu__item td {
+  line-height: 40px;
+  padding: 8px;
+}
+
+.menu__item__coffee {
+  border: 0.5px solid rgb(109, 109, 109, 0.5);
+  font-size: 25px;
+  border-left: none;
+  border-bottom: none;
+  color: rgb(99, 99, 99);
+}
+
+.menu__item__price {
+  border: 0.5px solid rgb(109, 109, 109, 0.5);
+  border-right: none;
+  border-bottom: none;
+  font-size: 18px;
+  text-align: center;
+  color: #cd853f;
+}
+
+.menu h3 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: #cd853f;
+}
+
+.menu-button-container {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-button-container Button {
+  box-shadow: 0 2px 8px rgb(66, 66, 66, 0.6);
+}

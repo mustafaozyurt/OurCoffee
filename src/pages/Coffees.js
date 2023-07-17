@@ -1,6 +1,12 @@
-import React from 'react';
-import '../App.css';
+import React from "react";
+import MenuSection from "../components/Coffees/MenuSection";
+import Menu from "../components/Coffees/Menu";
 
 export default function Coffees() {
-  return <h1 className='coffees'>COFFEES</h1>;
+  return (
+    <>
+      <MenuSection />
+      <Menu />
+    </>
+  );
 }

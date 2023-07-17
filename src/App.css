@@ -6,9 +6,8 @@
 }
 
 .home,
-.services,
-.products,
-.sign-up {
+.about-us,
+.shop {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -25,14 +24,6 @@
   font-size: 100px;
 }
 
-.coffees {
-  background-image: url('../public/images/img-espresso_1.jpg');
-  background-position: center;
-  background-size: fill;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
 
 .shop {
   background-image: url('../public/images/img-turkish-coffee.webp');
