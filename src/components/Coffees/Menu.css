@@ -83,3 +83,9 @@
 .menu-button-container Button {
   box-shadow: 0 2px 8px rgb(66, 66, 66, 0.6);
 }
+
+@media screen and (max-width: 600px) {
+  .menu h2 {
+    font-size: 28px;
+  }
+}
