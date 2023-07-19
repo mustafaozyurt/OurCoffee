@@ -1,0 +1,68 @@
+.about-us-container {
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+
+.about-us-content {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.au-1{
+  max-width: 800px;
+}
+
+.about-us-content h1 {
+  margin-top: 30px;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #8b4513;
+}
+
+.about-us-content h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #cd853f;
+  margin-bottom: 30px;
+}
+
+.about-us-content h5 {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: rgb(99, 99, 99);
+}
+
+.au-content-title-div {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.centered-image {
+  background: url("../../../public/images/img-about-us-coffee.jpeg") center
+    center/cover no-repeat;
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+  object-fit: contain;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 860px) {
+  .au-1 {
+    max-width: 600px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .au-1 {
+    max-width: 400px;
+  }
+}

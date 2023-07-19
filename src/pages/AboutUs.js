@@ -1,6 +1,14 @@
-import React from 'react';
-import '../App.css';
+import React from "react";
+import AboutUsSection from "../components/About/AboutUsSection";
+import AboutUsContent from "../components/About/AboutUsContent";
+import OurService from "../components/About/OurService";
 
 export default function AboutUs() {
-  return <h1 className='about-us'>ABOUT US</h1>;
+  return (
+    <>
+      <AboutUsSection />
+      <AboutUsContent />
+      <OurService />
+    </>
+  );
 }

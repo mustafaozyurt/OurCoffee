@@ -72,7 +72,7 @@ function Menu() {
         <div
           style={{
             width: "150px",
-            height: "3px",
+            height: "5px",
             background: "#e68541",
             marginBottom: "20px",
           }}
