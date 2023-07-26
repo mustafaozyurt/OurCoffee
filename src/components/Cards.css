@@ -1,36 +1,27 @@
 .cards {
   padding: 4rem;
   background: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
   text-align: center;
   color: #cd853f;
-}
-
-.cards__container {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  max-width: 1120px;
-  width: 90%;
-  margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 .cards__wrapper {
-  position: relative;
-  margin: 50px 0 45px;
-}
-
-.cards__items {
-  margin-bottom: 24px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 50px;
 }
 
 .cards__item {
-  display: flex;
-  flex: 1;
-  margin: 0 1rem;
-  border-radius: 10px;
+  margin: 20px 30px;
 }
 
 .cards__item__link {
@@ -92,42 +83,69 @@ h1 {
 
 .cards__item__info {
   display: flex;
+  flex: 1;
   padding: 20px 30px 30px;
   justify-content: space-between;
 }
 
 .cards__item__text {
+  display: flex;
+  flex: 0.8;
   color: #cd853f;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 24px;
 }
 .cards__item__price {
+  display: flex;
+  flex: 0.1;
+  justify-content: center;
+  align-items: center;
   color: #cd853f;
-  font-size: 14px;
+  font-size: 24px;
   line-height: 24px;
 }
 
-@media only screen and (min-width: 1200px) {
-  .content__blog__container {
-    width: 84%;
+@media only screen and (max-width: 1078px) {
+  .cards__item__text {
+    font-size: 18px;
+  }
+  .cards__item__price {
+    font-size: 22px;
   }
 }
 
-@media only screen and (min-width: 1024px) {
-  .cards__items {
-    display: flex;
+@media only screen and (max-width: 950px) {
+  .cards__item{
+    width: 350px;
   }
   .cards__item__text {
     font-size: 16px;
   }
+  .cards__item__price {
+    font-size: 20px;
+  }
 }
 
-@media only screen and (max-width: 1024px) {
-  .cards__item {
-    margin-bottom: 2rem;
+@media only screen and (max-width: 850px) {
+  .cards__wrapper{
+    grid-template-columns: repeat(1, 1fr);
   }
 
   .cards__item__text {
-    font-size: 14px;
+    font-size: 20px;
   }
+  .cards__item__price {
+    font-size: 24px;
+  }
+
+  .cards__item{
+    margin: 30px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+.cards__item{
+  width: 400px;
+}
 }

@@ -1,12 +1,14 @@
-import React from "react";
-import Navbar from "./components/Home/Navbar";
 import "./App.css";
-import Home from "./pages/Home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import AboutUs from "./pages/AboutUs";
-import Coffees from "./pages/Coffees";
-import Shop from "./pages/Shop";
-import Footer from "./components/Home/Footer";
+
+// Components
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+
+// Screens
+import HomeScreen from "./screens/HomeScreen";
+import AboutUs from "./screens/AboutUs";
+import Coffees from "./screens/Coffees";
 
 function App() {
   return (
@@ -14,10 +16,9 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<HomeScreen />} />
           <Route path="/about" element={<AboutUs />} />
           <Route path="/coffees" element={<Coffees />} />
-          <Route path="/shop" element={<Shop />} />
         </Routes>
         <Footer></Footer>
       </Router>

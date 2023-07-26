@@ -42,7 +42,7 @@
 }
 
 .centered-image {
-  background: url("../../../public/images/img-about-us-coffee.jpeg") center
+  background: url("../../public/images/img-about-us-coffee.jpeg") center
     center/cover no-repeat;
   height: 70vh;
   width: 100%;

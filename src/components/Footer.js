@@ -1,7 +1,8 @@
-import React from "react";
 import "./Footer.css";
-import { Button } from "./Button";
 import { Link } from "react-router-dom";
+
+// Components
+import { Button } from "./Button";
 
 function Footer() {
   return (
@@ -25,83 +26,83 @@ function Footer() {
           </form>
         </div>
       </section>
-      <div class="footer-contact">
+      <div className="footer-contact">
         <div className="footer-contact-wrapper">
-          <div class="footer-contact-items">
-            <i class="fas fa-map-marker-alt" />
+          <div className="footer-contact-items">
+            <i className="fas fa-map-marker-alt" />
             <h2>Adress</h2>
             <Link>123 Elm Street, Imaginaryville 98765 Fictitiousland</Link>
           </div>
-          <div class="footer-contact-items">
-            <i class="fas fa-envelope" />
+          <div className="footer-contact-items">
+            <i className="fas fa-envelope" />
             <h2>E-mail</h2>
             <Link>noreply@ourcoffee.com</Link>
             <Link>no-reply@ourcoffee.com</Link>
           </div>
         </div>
         <div className="footer-contact-wrapper">
-          <div class="footer-contact-items">
-            <i class="fas fa-phone" />
+          <div className="footer-contact-items">
+            <i className="fas fa-phone" />
             <h2>Call Us</h2>
             <Link>+1 555 123 4567</Link>
           </div>
-          <div class="footer-contact-items">
-            <i class="fas fa-clock" />
+          <div className="footer-contact-items">
+            <i className="fas fa-clock" />
             <h2>Opening Hours</h2>
             <Link>Monday-Friday: 8.00-24.00</Link>
             <Link>Saturday: 8.00-23.00</Link>
           </div>
         </div>
       </div>
-      <section class="social-media">
-        <div class="social-media-wrap">
-          <div class="footer-logo">
+      <section className="social-media">
+        <div className="social-media-wrap">
+          <div className="footer-logo">
             <Link to="/" className="social-logo">
               Our Coffee
-              <i class="fas fa-mug-hot" />
+              <i className="fas fa-mug-hot" />
             </Link>
           </div>
-          <small class="website-rights">Our Coffee © 2020</small>
-          <div class="social-icons">
+          <small className="website-rights">Our Coffee © 2020</small>
+          <div className="social-icons">
             <Link
-              class="social-icon-link facebook"
+              className="social-icon-link facebook"
               to="/"
               target="_blank"
               aria-label="Facebook"
             >
-              <i class="fab fa-facebook-f" />
+              <i className="fab fa-facebook-f" />
             </Link>
             <Link
-              class="social-icon-link instagram"
+              className="social-icon-link instagram"
               to="/"
               target="_blank"
               aria-label="Instagram"
             >
-              <i class="fab fa-instagram" />
+              <i className="fab fa-instagram" />
             </Link>
             <Link
-              class="social-icon-link youtube"
+              className="social-icon-link youtube"
               to="/"
               target="_blank"
               aria-label="Youtube"
             >
-              <i class="fab fa-youtube" />
+              <i className="fab fa-youtube" />
             </Link>
             <Link
-              class="social-icon-link twitter"
+              className="social-icon-link twitter"
               to="/"
               target="_blank"
               aria-label="Twitter"
             >
-              <i class="fab fa-twitter" />
+              <i className="fab fa-twitter" />
             </Link>
             <Link
-              class="social-icon-link twitter"
+              className="social-icon-link twitter"
               to="/"
               target="_blank"
               aria-label="LinkedIn"
             >
-              <i class="fab fa-linkedin" />
+              <i className="fab fa-linkedin" />
             </Link>
           </div>
         </div>

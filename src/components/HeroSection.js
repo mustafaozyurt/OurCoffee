@@ -1,7 +1,7 @@
-import React from "react";
-import "../../App.css";
-import { Button } from "./Button";
 import "./HeroSection.css";
+
+// Components
+import { Button } from "./Button";
 
 function HeroSection() {
   return (
@@ -14,6 +14,7 @@ function HeroSection() {
           className="btns"
           buttonStyle="btn--outline"
           buttonSize="btn--large"
+          path="/coffees"
         >
           SEE OUR MENU
         </Button>
@@ -22,6 +23,7 @@ function HeroSection() {
           className="btns"
           buttonStyle="btn--primary"
           buttonSize="btn--large"
+          path="http://localhost:3001/"
         >
           BUY OUR PRODUCTS <i className="fas fa-shopping-cart" />
         </Button>

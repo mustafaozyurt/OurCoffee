@@ -1,7 +1,7 @@
 import React from "react";
 import MenuItem from "./MenuItem";
 import "./Menu.css";
-import { Button } from "../Home/Button";
+import { Button } from "./Button";
 
 function Menu() {
   const classicCoffees = [

@@ -1,6 +1,6 @@
 import React from "react";
-import MenuSection from "../components/Coffees/MenuSection";
-import Menu from "../components/Coffees/Menu";
+import MenuSection from "../components/MenuSection";
+import Menu from "../components/Menu";
 
 export default function Coffees() {
   return (
