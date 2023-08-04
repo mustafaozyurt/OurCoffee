@@ -1,5 +1,5 @@
 .navbar {
-  background: #CD853F;
+  background: #cd853f;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -76,10 +76,6 @@
 }
 
 @media screen and (max-width: 960px) {
-  .NavbarItems {
-    position: relative;
-  }
-
   .nav-menu {
     display: flex;
     flex-direction: column;
@@ -94,7 +90,7 @@
   }
 
   .nav-menu.active {
-    background: #CD853F;
+    background: #cd853f;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
@@ -110,7 +106,7 @@
 
   .nav-links:hover {
     background-color: #fff;
-    color: #CD853F;
+    color: #cd853f;
     border-radius: 0;
   }
 
@@ -119,6 +115,7 @@
     top: 0;
     left: 0;
     transform: translate(25%, 50%);
+    margin: 0;
   }
 
   .menu-icon {
@@ -153,7 +150,22 @@
 
   .nav-links-mobile:hover {
     background: #fff;
-    color: #CD853F;
+    color: #cd853f;
     transition: 250ms;
+  }
+}
+
+@media screen and (max-width: 535px) {
+  .navbar-logo {
+    transform: translate(12.5%, 87.5%);
+    font-size: 1.5rem;
+  }
+
+  .menu-icon {
+    transform: translate(-100%, 85%);
+    font-size: 1.5rem;
+  }
+  .fa-mug-hot{
+    font-size: 1.8rem;
   }
 }

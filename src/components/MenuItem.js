@@ -1,5 +1,8 @@
+<<<<<<< Updated upstream
 import React from "react";
 
+=======
+>>>>>>> Stashed changes
 function MenuItem(props) {
   return (
     <tr className="menu__item">

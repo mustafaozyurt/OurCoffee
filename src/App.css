@@ -10,8 +10,7 @@ body {
   padding: 0;
 }
 
-.home,
-.shop {
+.home {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -19,11 +18,8 @@ body {
   font-size: 3rem;
 }
 
-.shop {
-  background-image: url("../public/images/img-turkish-coffee.webp");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+h1 {
+  text-align: center;
+  color: #cd853f;
+  margin-bottom: 30px;
 }

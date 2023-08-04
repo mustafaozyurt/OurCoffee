@@ -61,6 +61,7 @@
   border-right: none;
   border-bottom: none;
   font-size: 18px;
+  font-weight: bold;
   text-align: center;
   color: #cd853f;
 }
@@ -87,5 +88,32 @@
 @media screen and (max-width: 600px) {
   .menu h2 {
     font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .menu h1 {
+    font-size: 36px;
+  }
+
+  .menu h2 {
+    font-size: 24px;
+  }
+
+  .menu h3{
+    font-size: 25px;
+  }
+
+  .menu__item td{
+    line-height: 30px;
+
+  }
+
+  .menu__item__coffee{
+    font-size: 20px;
+  }
+
+  .menu__item__price{
+    font-size: 15px;
   }
 }
