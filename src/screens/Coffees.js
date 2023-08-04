@@ -1,15 +1,3 @@
-<<<<<<< Updated upstream
-import React from "react";
-import MenuSection from "../components/MenuSection";
-import Menu from "../components/Menu";
-
-export default function Coffees() {
-  return (
-    <>
-      <MenuSection />
-      <Menu />
-    </>
-=======
 import "./Coffees.css";
 
 //components
@@ -54,7 +42,7 @@ export default function Coffees() {
               <StyleItem width={"30px"} height={"3px"} marginBottom={"20px"} />
               <table className="menu__items">
                 {classicCoffees.map((item) => (
-                  <MenuItem coffee={item.coffee} price={item.price} />
+                  <MenuItem key={item.coffee} coffee={item.coffee} price={item.price} />
                 ))}
               </table>
             </div>
@@ -64,7 +52,7 @@ export default function Coffees() {
               <StyleItem width={"30px"} height={"3px"} marginBottom={"20px"} />
               <table className="menu__items">
                 {flavoredCoffees.map((item) => (
-                  <MenuItem coffee={item.coffee} price={item.price} />
+                  <MenuItem key={item.coffee} coffee={item.coffee} price={item.price} />
                 ))}
               </table>
             </div>
@@ -88,6 +76,5 @@ export default function Coffees() {
         </div>
       </div>
     </div>
->>>>>>> Stashed changes
   );
 }

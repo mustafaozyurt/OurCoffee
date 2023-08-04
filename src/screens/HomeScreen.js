@@ -1,23 +1,8 @@
-<<<<<<< Updated upstream
-// Components
-import HeroSection from "../components/HeroSection";
-import Cards from "../components/Cards";
-import ContactForm from "../components/ContactForm";
-
-function HomeScreen() {
-  return (
-    <>
-      <HeroSection />
-      <Cards />
-
-      <ContactForm />
-    </>
-  );
-}
-=======
 import "./HomeScreen.css";
 import { useState, useEffect } from "react";
 import axios from "axios";
+
+//components
 import CardItem from "../components/CardItem/CardItem";
 import { Button } from "../components/Button/Button";
 import FormItem from "../components/FormItem";
@@ -95,8 +80,8 @@ const HomeScreen = () => {
         setContactForm({ name: "", email: "", subject: "", message: "" });
       }
 
-      console.log(status)
-      console.log(contactForm)
+      console.log(status);
+      console.log(contactForm);
 
       setTimeout(() => {
         setStatus({ message: "", className: "" });
@@ -108,7 +93,7 @@ const HomeScreen = () => {
         className: "status-message-error",
       });
 
-      console.log(status)
+      console.log(status);
 
       setTimeout(() => {
         setStatus({ message: "", className: "" });
@@ -222,6 +207,5 @@ const HomeScreen = () => {
     </div>
   );
 };
->>>>>>> Stashed changes
 
 export default HomeScreen;

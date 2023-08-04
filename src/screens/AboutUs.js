@@ -1,17 +1,3 @@
-<<<<<<< Updated upstream
-import React from "react";
-import AboutUsSection from "../components/AboutUsSection";
-import AboutUsContent from "../components/AboutUsContent";
-import OurService from "../components/OurService";
-
-export default function AboutUs() {
-  return (
-    <>
-      <AboutUsSection />
-      <AboutUsContent />
-      <OurService />
-    </>
-=======
 import "./AboutUs.css";
 
 //components
@@ -116,7 +102,7 @@ export default function AboutUs() {
               <div className="service-container">
                 <div className="service-items">
                   {items.map((item) => (
-                    <OurServiceItem image={item.image} alt={item.alt} />
+                    <OurServiceItem key={item.image} image={item.image} alt={item.alt} />
                   ))}
                 </div>
               </div>
@@ -125,6 +111,5 @@ export default function AboutUs() {
         </div>
       </div>
     </div>
->>>>>>> Stashed changes
   );
 }
